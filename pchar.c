@@ -6,7 +6,7 @@
  * @stack: double pointer to header (top) of the stack
  * @line_number: counter for line number of the file
  *
- * Author: Excel NWachukwu
+ * Author: Graham Onche
  * Return: void
  */
 void _pchar(stack_t **stack, unsigned int line_number)
@@ -32,3 +32,4 @@ void _pchar(stack_t **stack, unsigned int line_number)
 		exit(EXIT_FAILURE);
 	}
 }
+
